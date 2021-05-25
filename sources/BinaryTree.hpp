@@ -63,7 +63,7 @@ namespace ariel {
                 return *this;
             }
 
-            //in_order &operator++(int) {}
+           
             const in_order operator ++ (int){
                 return *this;
             }
@@ -107,7 +107,7 @@ namespace ariel {
                 return *this;
             }
 
-            //pre_order &operator++(int) {}
+            
             const pre_order operator ++ (int){
                 return *this;
             }
@@ -142,7 +142,7 @@ namespace ariel {
                 return *this;
             }
 
-            //post_order &operator++(int) {}
+            
             const post_order operator ++ (int){
                 return *this;
             }
