@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <iostream>
 using namespace std;
+
 namespace ariel {
 
     template<typename T>
@@ -62,7 +63,6 @@ namespace ariel {
             in_order &operator ++ (){
                 return *this;
             }
-
            
             const in_order operator ++ (int){
                 return *this;
@@ -107,7 +107,6 @@ namespace ariel {
                 return *this;
             }
 
-            
             const pre_order operator ++ (int){
                 return *this;
             }
@@ -142,7 +141,6 @@ namespace ariel {
                 return *this;
             }
 
-            
             const post_order operator ++ (int){
                 return *this;
             }
